@@ -1,0 +1,20 @@
+[gd_scene format=2]
+
+[node name="GameState" type="Node"]
+
+[node name="TileMap" type="TileMap" parent="."]
+
+[node name="ui" type="Node2D" parent="."]
+
+[node name="Clock" type="Label" parent="ui"]
+margin_right = 40.0
+margin_bottom = 14.0
+
+[node name="Bombcpt" type="Label" parent="ui"]
+margin_right = 40.0
+margin_bottom = 14.0
+
+[node name="Level" type="Label" parent="ui"]
+margin_right = 40.0
+margin_bottom = 14.0
+
